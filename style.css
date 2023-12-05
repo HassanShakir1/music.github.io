@@ -597,7 +597,7 @@ footer{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .daugh2{
-  flex: 1 1 25rem;
+  flex: 1 1 27rem;
   padding: 3rem;
 }
 .daugh2 h3{
@@ -611,6 +611,11 @@ footer{
   font-size: 16px;
   line-height: 2.6rem;
   margin: 0 0 10px;
+  cursor: pointer;
+}
+.daugh2 p:hover{
+  transition: .3s ease-in-out;
+  color: #fff;
 }
 .daugh2 p span {
   color: #fff;
@@ -632,6 +637,11 @@ footer{
 .daugh3 p span{
   color: #ffffff;
   padding: 0 1.3rem;
+  cursor: pointer;
+}
+.daugh3 p span:hover{
+  transition: .4s ease-in-out;
+  color: #7c44e8;
 }
 .last{
   background: #000000;
