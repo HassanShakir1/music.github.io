@@ -55,6 +55,9 @@ header .icon span{
     display: inline-block;
   transform: translateY(-8px) translateX(9px) rotate(30deg);
 }
+nav{
+  z-index: 1000;
+}
 header nav a{ 
     color: #888888;
     text-decoration: none;
