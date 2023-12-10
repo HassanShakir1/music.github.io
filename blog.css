@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: center;
+    background-color: #030303   ;
+    height: auto;
+    color: #888888;
+    padding: 8px;
+   
+}
+.head :hover{
+    transition: .3s ease-in-out;
+    color: #ffffff;
+    cursor: pointer;
+}
+.head a{
+    color: #888888;
+    padding: 0 2px;
+}
+.head .call i{
+    padding: 0 3px;
+}
+.head .mail i{
+    padding: 0 3px;
+}
+header{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+   
+}
+header .icon{
+    color: #030303;
+    font-size: 25px;
+    
+}
+header .icon span{
+    font-size: 35px;
+    color: #7c44e8;
+    display: inline-block;
+  transform: translateY(-8px) translateX(9px) rotate(30deg);
+}
+nav{
+  z-index: 1000;
+}
+header nav a{ 
+    color: #888888;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 9px;
+}
+.menu{
+  display: none;
+}
+.btn{
+    color: #ffffff;
+    background: black;
+    padding: .5rem 1.3rem;
+    font-size: 16px;
+    border-radius: .5rem;
+  }
+.main1{
+  background-image: url(./inner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 150px;
+  background-position: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.main1 h4{
+    color: #ffffff73;
+    font-size: 40px;
+    padding-top: 30px;
+    margin: 0 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main1 p{
+    font-size: 17px;
+    color: #ffffff;
+}
+.main1 p a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 .5rem;
+}
+.main2{
+    margin-top: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    gap: 3rem;
+    padding: auto 3rem;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+.child{
+    flex: 1 1 30rem;
+
+}
+.child img{
+    max-width: 100%;
+}
+.child h4{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #222222;
+    margin: 15px 0 0;
+    line-height: 3rem;
+    cursor: pointer;
+}
+.child:hover h4{
+    transition: .4s ease-in-out;
+    color: #7c44e8;
+}
+.child p{
+    font-size: 16px ;
+    color: #777777;
+    line-height: 2.5rem;
+    margin: 15px 0 0;
+}
+.child p i{
+    padding-left: 10px;
+}
+.child p i:hover {
+    transition: .4s ease-in-out;
+    color: #7c44e8;
+    cursor: pointer;
+}
+.child p i:hover .span{
+    transition: .4s ease-in-out;
+    color: #7c44e8;
+}
+.child button{
+    text-align: center;
+    color: #ffffff;
+    background: #030303;
+    padding: 12px 30px;
+    border: 1px solid #313131;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.5), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: all 0.05s ease-in-out;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.child button:hover{
+    transition: .5s ease;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0);
+    transform: translateY(10px);
+    color: #7c44e8;
+    border: 1px solid #7c44e8;
+    background: #ffffff;
+}
+footer{
+    margin-top: auto;
+    background: #000000;
+    min-height: auto;
+  }
+  .mother{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 1200px;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    gap: 2rem;
+    padding: 0 3rem;
+    /* line-height: 2rem; */
+  }
+  .daugh1{
+    flex: 1 1 60rem;
+    padding: 3rem;
+  }
+  .daugh1 h3{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dddddd;
+    line-height: 3.5rem;
+  }
+  .daugh1 h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1.8rem;
+  }
+  .subdaugh {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } 
+  
+  .daugh1 input {
+    background-color: #1d1d1d;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    width: 85%;
+    color: #aaa;
+    margin: 0;
+    border-radius: 4px 0px 0px 4px;
+    border: transparent;
+    margin-top: 1.8rem;
+    line-height: 1;
+    box-sizing: border-box;
+  }
+  
+  .click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7c44e8;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    width: 15%;
+    line-height: 1;
+    box-sizing: border-box;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .daugh1 p{
+    color: #828282;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .daughicon{
+    display: flex;
+  }
+  .daughicon i {
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 0 1.8rem;
+  }
+  
+  #face {
+    color: #3b5998;
+    text-align: center;
+    background: #fff; /* Add a white background */
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px; /* Set a fixed height for the circular background */
+    width: 40px; /* Set a fixed width for the circular background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  #insta{
+    color: #e1306c;
+    text-align: center;
+    background: #fff; /* Add a white background */
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px; /* Set a fixed height for the circular background */
+    width: 40px; /* Set a fixed width for the circular background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  #twit{
+    color: #1da1f2;
+    text-align: center;
+    background: #fff; /* Add a white background */
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px; /* Set a fixed height for the circular background */
+    width: 40px; /* Set a fixed width for the circular background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .daugh2{
+    flex: 1 1 27rem;
+    padding: 3rem;
+  }
+  .daugh2 h3{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 10px;
+  }
+  .daugh2 p{
+    color: #777777;
+    font-size: 16px;
+    line-height: 2.6rem;
+    margin: 0 0 10px;
+    cursor: pointer;
+  }
+  .daugh2 p:hover{
+    transition: .3s ease-in-out;
+    color: #fff;
+  }
+  .daugh2 p span {
+    color: #fff;
+  }
+  .daugh3{
+    flex: 1 1 25rem;
+    padding: 3rem;
+  }
+  .daugh3 h3{
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0 0 10px;
+  }
+  .daugh3 p{
+    color: #777777;
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  .daugh3 p span{
+    color: #ffffff;
+    padding: 0 1.3rem;
+    cursor: pointer;
+  }
+  .daugh3 p span:hover{
+    transition: .4s ease-in-out;
+    color: #7c44e8;
+  }
+  .last{
+    background: #000000;
+    color: #fff;
+  }
+  .lastcont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  .bar a{
+    color: #999999;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 1.2rem;
+  }
+  .bar a:hover{
+    transition: .3s ease-in-out;
+    color: #fff;
+  }
+  .lastp{
+    color: #bbbbbb;
+    font-size: 15px;
+    text-align: center;
+  }
+  .lastp span{
+    color: #7c44e8;
+    cursor: pointer;
+  }
+  .lastp span:hover{
+    transition: .5s ease-in-out;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  @media screen and (max-width: 992px){
+    nav{
+      position: absolute;
+      top: 19%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 2rem 0;
+      display: none;
+      background-color: #030303;
+    }
+    .menu{
+      display: initial;
+    }
+    nav a{
+      display: block;
+      margin: 1.5rem 0;
+      
+    }
+  .active{
+    display: block;
+  }
+}
+@media screen and (max-width: 575px) {
+    .head .logo{
+        display: none   ;
+    }
+}
+@media screen and (max-width: 429px) {
+    .head .mail {
+        display: none;
+    }
+}
